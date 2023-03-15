@@ -1,0 +1,55 @@
+.logoguy {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.logo {
+  height: 100px;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  column-gap: 20px;
+  row-gap: 25px;
+  padding-top: 75px;
+  padding-top: 10px;
+}
+.firstguy {
+  height: 180px;
+}
+.name {
+  color: white;
+  padding-left: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name:hover {
+  color: rgb(23, 9, 9);
+}
+.image {
+  height: 180px;
+  border-radius: 2px;
+}
+.image:hover {
+  opacity: 0.7;
+  transition: 0.15s;
+}
+.email {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.emailus {
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+}
+.emailus:hover {
+  color: rgb(117, 117, 182);
+}
